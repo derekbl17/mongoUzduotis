@@ -1,0 +1,10 @@
+form *{
+    display: block;
+}
+form{
+    margin: 1em;
+}
+section{
+    border: 1px solid black;
+    margin: 1em;
+}

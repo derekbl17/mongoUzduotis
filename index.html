@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script type="module" src="./main.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <form id="authorForm">
+        <caption>
+          Author
+        </caption>
+        <label for="firstname">firstname</label>
+        <input type="text" name="" id="firstname" />
+        <label for="lastname">lastname</label>
+        <input type="text" name="" id="lastname" />
+        <button id="postAuthor">post author</button>
+      </form>
+      <form id="bookForm">
+        <caption>
+          Book
+        </caption>
+        <label for="title">title</label>
+        <input type="text" name="" id="title" />
+        <label for="year">year</label>
+        <input type="number" name="" id="year" />
+        <label for="authorid">author id</label>
+        <input type="text" name="" id="authorid" />
+        <button id="postAuthor">post book</button>
+      </form>
+      <button id="showAuth">Show all authors</button>
+      <button id="showBook">Show all books</button>
+      <section id="authorsList"></section>
+      <section id="booksList"></section>
+    </main>
+  </body>
+</html>
